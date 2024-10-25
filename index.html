@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classroom Dashboard</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f2faef; /* Keeping the background light for contrast */
+    }
+
+    .item1 {
+      grid-area: AI;
+    }
+
+    .item2 {
+      grid-area: classroom;
+    }
+
+    .item3 {
+      grid-area: assignment;
+      overflow: auto;   
+      
+    }
+
+    .item4 {
+      grid-area: text;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'classroom AI AI AI AI assignment'
+        'classroom AI AI AI AI assignment'
+        'classroom text text text text assignment';
+      gap: 10px;
+      background-color: #3a8d88; /* Main background color */
+      padding: 10px;
+      grid-auto-rows: 400px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .form-control {
+      width: 90%;
+      height: 90%;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.7);
+      resize: none;
+      border-radius: 20px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .form-control:focus {
+      outline: none;
+      box-shadow: 0 0 10px rgba(0, 137, 155, 0.5);
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-areas:
+          'classroom'
+          'AI'
+          'assignment'
+          'text';
+        grid-auto-rows: 200px;
+      }
+
+      .grid-container > div {
+        font-size: 24px;
+      }
+    }
+
+    #classroomBox {
+      background-color: #f0f8ff;
+      border: 2px solid #2a9ef0; /* Updated border color */
+      padding: 20px;
+      margin: 20px;
+      font-size: 18px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .item4 {
+      position: relative;
+    }
+
+    #textInput {
+      padding-bottom: 40px;
+      height: 86%;
+      width: 90%;
+    }
+
+    .submit-button {
+      position: absolute;
+      bottom: 50px;
+      right: 50px;
+      margin: 0;
+      padding: 10px 15px;
+      background-color: #f4a462; /* Button color */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .submit-button:hover {
+      background-color: #e76e50; /* Darker shade on hover */
+    }
+
+    #aiTextBox {
+      height: 100%;
+      overflow-y: auto;
+      align-items: center; 
+      resize: none;
+    }
+
+    #aiSection {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Aligns AI messages to the left */
+        overflow-y: auto;
+        padding: 10px;
+    }
+
+    .user-bubble {
+        background-color: #49d021; /* Color for user messages */
+        color: white;
+        align-self: flex-end; /* Aligns user messages to the right */
+        border-radius: 20px;
+        padding: 10px;
+        margin: 5px 0;
+        max-width: 80%;
+    }
+
+    .ai-bubble {
+        background-color: #2a9d90; /* Color for AI messages */
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 5px 0;
+        max-width: 80%;
+    }
+    #arrayDisplay {
+    height: 100%; /* Set a fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="grid-container">
+    <div class="item1" id="aiSection">AI</div>
+    <div class="item2">
+      <div id="classroomList"></div>
+    </div>
+    <div class="item3">Assignment:
+      <div id="arrayDisplay"></div>
+    </div>
+    <div class="item4">
+      <textarea id="textInput" class="form-control" placeholder="Type here..."></textarea>
+      <button id="submitButton" class="submit-button">Submit</button>
+    </div>
+  </div>
+
+  <script src="main.js" type = "module"></script>
+</body>
+
+</html>

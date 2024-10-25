@@ -1,0 +1,36 @@
+Algebra Word Problems Packet #2 (Hard Version)
+
+
+On a separate sheet of paper, write your “Let” statement(s) to define the unknown.
+Solve each problem using an algebraic equation.
+
+
+1. The sum of three consecutive odd integers is 111. Find the integers.
+
+2. The length of a rectangle is 5 cm more than twice its width. If the perimeter is 62 cm, find the dimensions of the rectangle.
+
+3. A train leaves New York City at 10:00 AM traveling at 60 mph. Another train leaves Chicago at 11:00 AM traveling at 70 mph. If the distance between the two cities is 800 miles, at what time will the trains meet?
+
+4. A boat travels downstream at a speed of 25 mph and upstream at a speed of 15 mph. Find the speed of the current and the speed of the boat in still water.
+
+5. A merchant bought a number of articles for $120. He sold all but 3 of them for a total of $153, making a profit of $1.50 on each article sold. How many articles did he buy?
+
+6. A father is 4 times as old as his son. In 5 years, the father will be 3 times as old as his son. How old are they now?
+
+7. A mixture of nuts contains cashews and peanuts in a ratio of 3:5. If there are 20 more peanuts than cashews, how many pounds of each type of nut are in the mixture?
+
+8. A cyclist travels from town A to town B at a speed of 15 mph. After reaching town B, he returns to town A at a speed of 12 mph. If the total travel time is 5 hours, find the distance between the two towns.
+
+9. A rectangular garden is surrounded by a walkway 3 feet wide. The length of the garden is 10 feet more than its width. If the area of the walkway is 276 square feet, find the dimensions of the garden.
+
+10. A group of friends went to a restaurant for dinner. The total bill was $120. If they had one more person in the group, each person would have paid $2 less. How many people were in the group?
+
+11. Two pipes can fill a tank in 6 hours and 9 hours, respectively. A third pipe can empty the tank in 12 hours. If all three pipes are open, how long will it take to fill the tank?
+
+12. A ladder is leaning against a wall. The top of the ladder reaches a point 12 feet above the ground. The bottom of the ladder is 5 feet from the wall. If the ladder is moved 2 feet closer to the wall, how much higher will the top of the ladder reach?
+
+13. A certain number of people are invited to a party. If 5 more people are invited, each person would receive 1 fewer piece of cake. If 2 fewer people are invited, each person would receive 2 more pieces of cake. How many people were initially invited?
+
+14. A company manufactures two types of products, A and B. Each product requires two resources, labor and materials. Product A requires 2 hours of labor and 3 units of materials, while product B requires 3 hours of labor and 2 units of materials. The company has 120 hours of labor and 100 units of materials available. If the profit on product A is $5 and the profit on product B is $6, how many units of each product should be manufactured to maximize profit?
+
+

@@ -1,0 +1,32 @@
+## Algebra Word Problems Packet #2
+
+On a separate sheet of paper, write your “Let” statement(s) to define the unknown.
+Solve each problem using an algebraic equation.
+
+1.  The sum of two numbers is 45. Their difference is 11. Find the two numbers.
+
+2.  A rectangle is 3 times as long as it is wide. The perimeter is 64 cm. Find the length and width.
+
+3.  The length of a rectangle is 5 cm more than twice its width. The perimeter is 62 cm. Find the dimensions of the rectangle.
+
+4.  Two angles are supplementary. One angle is 20° more than the other. Find the angles.
+
+5.  The measure of the angles in a triangle are in the ratio 2:3:4. Find the measures of the three angles.
+
+6.  Find two consecutive odd integers whose sum is 128.
+
+7.  Find three consecutive even integers whose sum is 144.
+
+8.  The sum of three consecutive integers is 75. Find the integers.
+
+9.  A chemist has 20 ml of a 40% acid solution. How much pure acid must be added to produce a 50% acid solution?
+
+10. How many liters of a 10% salt solution must be added to 15 liters of a 40% salt solution to obtain a 25% salt solution?
+
+11. A store sells two types of coffee: one type for $4 per pound and another type for $6 per pound. How many pounds of each type should be mixed to produce 20 pounds of a blend that sells for $5 per pound?
+
+12. A student has test scores of 85, 90, and 80. What score must the student earn on the next test to have an average of 88?
+
+13. A train leaves New York at 10:00 AM and travels at 60 miles per hour. Another train leaves Chicago at 11:00 AM and travels at 70 miles per hour in the same direction. If the distance between New York and Chicago is 800 miles, at what time will the two trains meet?
+
+14. A boat travels 20 miles downstream in 2 hours and 30 miles upstream in 3 hours. Find the speed of the boat in still water and the speed of the current.
